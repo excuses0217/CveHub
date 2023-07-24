@@ -3,12 +3,12 @@ A SQL injection vulnerability exists in the Cafe Billing System index.php has Sq
 ```
 
 
-![Pasted image 20230724181453](Pasted image 20230724181453.png)
+![src](./src.png)
 
-![Pasted image 20230724180518](Pasted image 20230724180518.png)
+![payload](./payload.png)
 Sqlmap Attack
 
-```
+```bash
 ---
 Parameter: id (GET)
     Type: boolean-based blind
